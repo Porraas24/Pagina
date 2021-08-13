@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  
+    <title>InfoByte</title>
+  <!--Importado de https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp-->  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <!--refrescar la pagina según tiempo en content, medido en segundos-->
+  <meta http-equiv="refresh" content="60">
+  <!--Dar nombre de autor a tu página web-->
+  <meta name="author" content="Johan Andrés Hernández M">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!--Importado de google fonts-->
+<!--fuente: into ligth tow-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
+    
+<style>
+  body {
+  width: auto;
+  padding: 5px;
+  margin: 4px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Shadows Into Light Two', cursive;
+}
+
+p{
+  font-family: 'Shadows Into Light', cursive;
+}
+.cover{
+  height: 400px;
+  background-image: url(img/board.jpg);
+  background-size: 500px;
+  background-position: center;
+  background-color: rgb(95, 94, 94);
+  background-blend-mode: darken ;
+  color:white;
+}
+
+.cover-small1{
+  background-blend-mode: normal;
+  background-size: 290px;
+  background-position: center;
+  height: 200px;
+}
+
+.cover-small2{
+  background-blend-mode: normal;
+  background-size: 240px;
+  background-position: center;
+  height: 200px;
+}
+  
+.cover-small3{
+  background-blend-mode: normal;
+  background-size: 350px;
+  background-position: center;
+  height: 200px;
+}
+.card{
+padding: 2px;
+height: 2px;
+  display: inline-table;
+}
+
+.card-title{
+  min-height: 3rem;
+}
+
+.card-text{
+  min-height: 12rem;
+}
+
+ </style> 
+</head>
+<body>
+  <header>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- logo -->
+  <a class="navbar-brand" href="index.html">Inicio</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 3</a>
+    </li>
+  </ul>
+</nav>
+<div class="cover d-flex justify-content-center align-items-center flex-column"> 
+<h1>Bienvenid@, disfruta de una gran experiencia</h1>
+<br>
+<h4>Sorprendete con la facilidad de aprender algo nuevo cada día</h4>
+<br>
+<br>
+<a href="https://courseit.io/?utm_campaign=courseit_pro&utm_source=google&utm_medium=ads&utm_term=pro&gclid=Cj0KCQjw6ZOIBhDdARIsAMf8YyHfqPNV_3RHDaxu-oAHrYUxYDR0H_Yrv41mqwZtBzqQhyad9OrXPz8aAhPpEALw_wcB" class="btn btn-primary" >Conoce más</a>
+</div>
+</header>
+
+<!--tarjetas-->
+<section>
+<div class="container bg-mt5">
+  <div class="row justify-content-center">
+<!--tarjeta 1-->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+  <div class="card">
+    <div title="Ada Lovelace, la primera programadora"  class="cover cover-small1" style="background-image: url(img/ada3.jpg);">
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title"><b>¿Sabias qué?</b></h3>
+      <p class="card-text">El primer programador en todo el mundo fue una mujer. Se llamaba Ada Lovelace y nació en 1815.</p>
+      <a href="https://es.wikipedia.org/wiki/Ada_Lovelace" class="btn btn-primary">Conoce más</a>
+    </div>
+  </div>
+  </div>
+
+
+<!--tarejeta 2-->
+
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+  <div class="card">
+    <div title="microsoft lanza parche para windows 10, actualización" class="cover cover-small2" style="background-image: url(img/Microsoft.jpg);">
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title"><b>News</b></h3>
+      <p class="card-text">Microsoft anuncia fallos en su plataforma de sistema operaticvo windows 10 en actualizaciones del presnete año y subió un parche para darle solución a este problema</p>
+      <a href="https://www.genbeta.com/windows/microsoft-lanza-actualizacion-seguridad-para-parchear-printnightmare-varias-versiones-windows-incluyendo-windows-7" class="btn btn-primary">Conoce más</a>
+    </div>
+  </div>
+    </div>
+
+
+<!--tarjeta 3-->
+
+
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+  <div class="card">
+    <div title="windows 11, se hacen pruebas del nuevo sistema operativo de microsoft" class="cover cover-small3" style="background-image: url(img/windows11.jpg);">
+    </div>
+    <div class="card-body">
+      <h3 class="card-title"><b>Windows 11</b></h3>
+      <p class="card-text">Los estrictos requisitos de Windows 11 siguen dando de qué hablar. No solo porque dejarían de lado a una gran cantidad
+      de ordenadores, sino por las idas y vueltas de Microsoft.</p>
+      <a href="https://hipertextual.com/2021/07/microsoft-sera-inflexible-con-los-requisitos-minimos-de-windows-11"
+        class="btn btn-primary">Conoce más</a>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</section>
+<br>
+
+<section>
+<div class="container bg-mt5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-sm-6 col-lg-5">
+      <img src="img/codigoweb.png" alt="ilustración codigo web" width="300px">
+    </div>  
+  </div>
+  <br>
+  <div class="row justify-content-center">
+     <div class="col-12 col-sm-6 col-lg-5">
+      <h3><b>!Aprende algo nuevo cada día. Motívate!</b></h3>
+       <a href="" class="btn btn-info ">Ir a página</a>
+      </div>
+  </div>
+  <form action="">
+    <label for="email">
+    <h4>Correo electrónico</h4>
+    </label>
+    <div class="d-flex">
+      <div class="flex-fill mr-2">
+      <input type="email" id="email" class="form-control"/>
+      </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+    </div>
+  </div>
+
+</section>
+</body>
+</html>
